@@ -8,3 +8,10 @@ header, footer{
 .padding {
     color: #023047;
 }
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black ;
+}
+ul {
+    list-style-type: square;
+}
