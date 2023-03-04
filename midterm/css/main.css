@@ -1,0 +1,118 @@
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+h1 {
+    font-weight: 200;
+}
+h2, h3 {
+    font-size: 24px;
+    font-weight: 480;
+    padding: 10px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size: 29px;
+}
+  
+.banner-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+  
+.heading {
+    position: relative;
+  }
+.wrapper {
+    width: 1000px;
+    background-color: #d4e9e7;
+    margin:auto;
+    padding: 0px;
+}
+nav {
+    text-align: center;
+}
+    
+nav ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+    
+nav ul li {
+    display: inline-block;
+    margin-right: auto;
+    margin-left:auto;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+nav ul li:first-child {
+    text-align: left; /* align first item to left */
+}
+  
+nav ul li:last-child {
+    text-align: right; /* align last item to right */
+}
+
+nav ul li:nth-child(1), 
+nav ul li:nth-child(2) {
+  border-right: 1px solid black;
+} /*Adds a right border to the first and second list items.*/
+
+nav ul li:nth-child(3) {
+  border-right: none;
+} /*Removes the right border from the third list item.*/
+.smallimage {
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.part2 p{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px;
+}
+.form-box {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+.button {
+    background-color:#d4e9e7; 
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.form-box input[type="text"], 
+.form-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: left;
+    margin-left: 800px;
+    padding: 20px;
+}
