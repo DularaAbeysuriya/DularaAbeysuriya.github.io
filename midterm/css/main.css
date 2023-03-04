@@ -1,15 +1,27 @@
 body {
     background-color: #aad4cf;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Poppins, sans-serif;
     font-weight: 500;
 }
 h1 {
     font-weight: 200;
 }
-h2, h3 {
+h2 {
     font-size: 24px;
     font-weight: 480;
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: -10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
 }
 
 .banner-text {
@@ -38,48 +50,24 @@ h2, h3 {
 .wrapper {
     width: 1000px;
     background-color: #d4e9e7;
-    margin:auto;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     padding: 0px;
 }
 nav {
     text-align: center;
-}
-    
+}    
 nav ul {
     display: inline-block;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-    
-nav ul li {
-    display: inline-block;
-    margin-right: auto;
-    margin-left:auto;
-    padding: 10px;
-    text-transform: uppercase;
-    font-size: large;
-}
-
-nav ul li:first-child {
-    text-align: left; /* align first item to left */
-}
-  
-nav ul li:last-child {
-    text-align: right; /* align last item to right */
-}
-
-nav ul li:nth-child(1), 
-nav ul li:nth-child(2) {
-  border-right: 1px solid black;
-} /*Adds a right border to the first and second list items.*/
-
-nav ul li:nth-child(3) {
-  border-right: none;
-} /*Removes the right border from the third list item.*/
 .smallimage {
-    width: 190px;
-    height: 190px;
+    width: 290px;
+    height: 290px;
     margin: 10px;
     padding-right: 10px;
     float: left;
@@ -103,16 +91,30 @@ nav ul li:nth-child(3) {
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-}
+} 
+/*creates a simple, clean-looking button.*/
 
-.form-box input[type="text"], 
+.form-box input[type="text"], /* allows for the application of styles to specific input elements within a form, while ignoring other types of input elements.*/
 .form-box textarea {
     width: 100%;
     box-sizing: border-box;
-}
+} /*sets the width of input text fields and textareas inside an element with the class "form-box" to 100% of their parent container*/
 
 footer {
     text-align: left;
-    margin-left: 800px;
+    margin-left: 830px;
     padding: 20px;
 }
+
+table {
+    width: 100%;
+    margin-top: -15px;
+}
+/*sets the width of the table to 100% of its parent container and applies a negative margin to the top of the table*/
+
+th {
+    height: 10px;
+    width: 33%;
+    border-right: 1px solid black
+}
+/* sets the height of the table header cells (th) to 10 pixels and the width to 33% of the width of the table.*/
