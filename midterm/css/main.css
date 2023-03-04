@@ -34,7 +34,7 @@ h4 {
     z-index: 1;
     font-size: 29px;
 }
-  
+/*defines the styling for the text that appears on top of a banner image*/  
 .banner-card img {
     display: block;
     width: 100%;
@@ -43,10 +43,11 @@ h4 {
     padding: 0;
     border: none;
 }
-  
+/*defines the styling for the banner image itself. It sets the image to have a width of 100% and height that adjusts proportionally*/  
 .heading {
     position: relative;
   }
+  
 .wrapper {
     width: 1000px;
     background-color: #d4e9e7;
@@ -56,6 +57,7 @@ h4 {
     margin-bottom: auto;
     padding: 0px;
 }
+/*It sets the width of the container to 1000px and adds a background color. */
 nav {
     text-align: center;
 }    
@@ -83,6 +85,7 @@ nav ul {
     padding: 20px;
     margin: 10px;
   }
+/*box or container with a black border, 20px of padding on the inside, and a 10px margin around the outside.*/
 .button {
     background-color:#d4e9e7; 
     border: 1px solid black;
@@ -94,11 +97,13 @@ nav ul {
 } 
 /*creates a simple, clean-looking button.*/
 
-.form-box input[type="text"], /* allows for the application of styles to specific input elements within a form, while ignoring other types of input elements.*/
+.form-box input[type="text"], 
+/* allows for the application of styles to specific input elements within a form, while ignoring other types of input elements.*/
 .form-box textarea {
     width: 100%;
     box-sizing: border-box;
-} /*sets the width of input text fields and textareas inside an element with the class "form-box" to 100% of their parent container*/
+} 
+/*sets the width of input text fields and textareas inside an element with the class "form-box" to 100% of their parent container*/
 
 footer {
     text-align: left;
