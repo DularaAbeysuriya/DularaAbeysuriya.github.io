@@ -3,26 +3,29 @@ body {
     font-family: Arial, Poppins, sans-serif;
     font-weight: 500;
 }
+/*Sets the background color of the body to (#aad4cf) color and sets the font family to "Arial",with a font weight of 500. */
 h1 {
     font-weight: 200;
 }
+/*Defines the sizing and font properties of h1s in webpage*/
 h2 {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 480;
     padding-left: 10px;
-    padding-bottom: -10px;
+    
 }
-
-h3 {
+/*Defines the sizing and font properties of h2s in webpage*/
+th {
     font-size: 20px;
     font-weight: 500;
 }
-
+/*Defines the sizing and font properties of ths (table headings) in webpage*/
 h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     padding-left: 10px;
 }
+/*Defines the sizing and font properties of h4s in webpage*/
 
 .banner-text {
     position: absolute;
@@ -47,7 +50,7 @@ h4 {
 .heading {
     position: relative;
   }
-  
+/* Sets the position property of elements with a class of "heading" to "relative", allowing child elements to be positioned relative to their parent container. */
 .wrapper {
     width: 1000px;
     background-color: #d4e9e7;
@@ -60,13 +63,15 @@ h4 {
 /*It sets the width of the container to 1000px and adds a background color. */
 nav {
     text-align: center;
-}    
+} 
+/* This CSS code aligns the content of the nav element to the center of its container. */  
 nav ul {
     display: inline-block;
     list-style: none;
     padding: 0;
     margin: 0;
 }
+/*Sets the display property of the unordered list within the nav element to "inline-block", removes the list-style, padding, and margin, to create a horizontal menu. */
 .smallimage {
     width: 290px;
     height: 290px;
@@ -74,6 +79,7 @@ nav ul {
     padding-right: 10px;
     float: left;
 }
+/*sets the width and height of the element to 290 pixels and adds a margin of 10 pixels. The padding-right property adds 10 pixels of space to the right side of the element. The float property positions the element to the left of its container.*/
 
 .part2 p{
     text-align: justify;
@@ -110,6 +116,7 @@ footer {
     margin-left: 830px;
     padding: 20px;
 }
+/*Aligns the text within the footer element to the left side,The padding adds 20 pixels of space around the content */
 
 table {
     width: 100%;
