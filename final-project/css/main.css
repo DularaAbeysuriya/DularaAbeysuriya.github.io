@@ -1,0 +1,245 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1400px;
+}
+  
+  body {
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    padding: 20px;
+    padding-left: 230px;
+    padding-right: 200px;
+  }
+  
+  .topnav img {
+    margin-right: 90px;
+    margin-left: 0;
+
+  }
+  
+  .topnav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  
+  .topnav li:first-child {
+    margin-left: 0;
+  }
+  
+  .topnav li:last-child {
+    margin-right: 0;
+  }
+  
+  .topnav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .topnav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap; /* Making sure nav bar texts  in one horizontal line*/
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #c78c02;
+  }
+  
+  .topnav form {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
+  }
+  
+  .topnav form input[type="text"] {
+    padding: 10px;
+    border: none;
+
+  }
+  
+  .fa-regular.fa-magnifying-glass:before {
+    content: "\f50e"; /* Magnifying Glass Icon */
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: #c78c02;
+  }
+  
+  .topnav form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+
+  }
+
+  
+  
+  .main-header {
+    position: arelative;
+    text-align: left; /* align the text to the left */
+  }
+  .main-header img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(0, 0, 0, 0.616);
+  }
+  
+  .overlay h2,
+  .overlay p {
+    color: #fff;
+    text-align: left;
+  }
+  
+  .btns a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c78c02;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .btns a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .overlay h2 {
+    font-size: 48px; /* increase the font size */
+    margin-bottom: 20px; /* add some bottom margin for spacing */
+  }
+  
+  .main-header .btn {
+    margin-top: 20px; /* add some top margin for spacing */
+  }
+
+
+
+/*About Us section*/
+
+.about-container {
+    max-width: 1400px;
+    background-color: bisque;
+    margin: 0 auto; /* center the container */
+    padding: 50px; /* add padding to the container */
+  }
+  
+  .about-us {
+    display: flex;
+    align-items: center;
+    background-image: url(images/cream-background.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0; /* remove padding from .about-us */
+  }
+  
+  .about-us img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 50px;
+    padding-left: 90px;
+  }
+  
+  .about-content {
+    flex: 1; /* use flex to make the text content fill remaining space */
+  }
+  
+  .about-content h2 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 14px;
+    color: black;
+  }
+
+  
+
+
+  .services {
+    background-color: #f9f6ef;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+  }
+  
+  .services h2 {
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  
+  .service-item {
+    background-color: rgb(255, 218, 95);
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .service-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: end;
+  }
+
+  .service-item img {
+    min-height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .service-item h3,
+  .service-item p {
+    margin: 0;
+  }
+  
+  .service-item .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+
+
+
+
+
+  
+  

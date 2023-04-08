@@ -6,104 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/238bd16a8e.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- This is the wrapper for the entire navigation bar -->
     <div class="wrapper">
         <!-- This is the navigation bar with class topnav -->
-        <nav class="topnav">
+          <!-- This is the navigation bar with class topnav -->
+          <nav class="topnav">
             <img src="images/logo.png" alt="logo">
             <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Team</a>
-                </li>
-                <li>
-                    <a href="#"> Contact</a>
-                </li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Team</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
             </ul>
-        </nav>
-<!-- This is a navigation section with a search bar -->
-        <nav class="search-bar">
-        <form>
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-        </form>
-        </nav>
-        
+            <form>
+              <input type="text" placeholder="Search">
+              <button type="submit">
+                <i class="fa-regular fa-magnifying-glass"></i>
+            </button>
+            </form>
+          </nav>
 <!-- The header section contains the main banner image, a welcoming message, and a button to connect with the company. -->
         <header class="main-header">
-            <img src="images/main-banner.jpg" alt="main photo">
-            <h2>Welcome to Three Star Media</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic quod similique libero, magni tempore amet, repudiandae ipsam eaque commodi nulla suscipit porro eius dolor itaque exercitationem molestias consequuntur non?</p>
-
-            <div class="btns">
-                <a href="#">Connect with us</a>
+            <div class="overlay">
+                <h2>Welcome to Three Star Media</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic quod similique libero, magni tempore amet, repudiandae ipsam eaque commodi nulla suscipit porro eius dolor itaque exercitationem molestias consequuntur non?</p>
+                <div class="btns">
+                    <a href="#">Connect with us</a>
+                </div>
             </div>
+            <img src="images/main-banner.jpg" alt="main photo">
         </header>
 
 <!-- The About Us section contains an image and a brief introduction about the company. -->
 
-        <section class="about-us">
+        <section class="about-container">
+            <section class="about-us">
             <img src="images/about-us.jpg" alt="about-us">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consectetur corrupti doloribus accusantium sapiente voluptatum! Aliquam itaque, cumque quasi quae beatae iusto temporibus placeat molestias tempore quia nemo unde laboriosam.</p>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consectetur corrupti doloribus accusantium sapiente voluptatum! Aliquam itaque, cumque quasi quae beatae iusto temporibus placeat molestias tempore quia nemo unde laboriosam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, est consectetur fuga, tempore rerum autem voluptate magnam aliquid quod ducimus voluptatum, ad minus odio recusandae. Officia nesciunt sit illo animi?</p>
+            </div>
+            </section>
         </section>
+        
 
 <!-- The Services section contains three service descriptions, each with an image, a heading, a paragraph, and a button. -->
         <section class="services">
             <h2>Our Services</h2>
-            <img src="images/digital.jpg" alt="service">
-
-            <h3> Digital Transformation </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad, a, praesentium, libero harum aperiam obcaecati rerum magnam dolores cumque quo? Excepturi rerum fugit repudiandae quas nobis eum, laborum accusantium.</p>
-
-            <div class="btns">
-                <a href="#"> Digital Plans </a>
+                <div class="service-item">
+                  <img src="images/digital.jpg" alt="service" >
+                  <h3> Digital Transformation </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad, a, praesentium, libero harum aperiam obcaecati rerum magnam dolores cumque quo? Excepturi rerum fugit repudiandae quas nobis eum, laborum accusantium.</p>
+                  <div class="btns">
+                    <a href="#"> Digital Plans </a>
+                  </div>
+                </div>
+              
+                <div class="service-item">
+                  <img src="images/marketing.jpg" alt="marketing">
+                  <h3>Marketing</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat aliquid facilis quae ipsam quasi illum, possimus, non minima sit aut provident mollitia laborum molestias commodi voluptatum, est suscipit debitis.</p>
+                  <div class="btns">
+                    <a href="#">Marketing Plans</a>
+                  </div>
+                </div>
+              
+                <div class="service-item">
+                  <img src="images/video.jpg" alt="vids">
+                  <h3>Video Production</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit quo totam excepturi nam illo, exercitationem optio! Minima, quis, laboriosam doloribus enim mollitia assumenda adipisci velit similique officiis aliquam pariatur.</p>
+                  <div class="btns">
+                    <a href="#">Video Plans</a>
+                  </div>
+                </div>
+              
+                <div class="service-item">
+                  <img src="images/web.jpg" alt="web dev">
+                  <h3>Web Development</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta a accusamus impedit earum quae, expedita laboriosam, vero dolore maxime, voluptates nesciunt possimus quis quaerat. Aperiam nam autem magni animi dolor?</p>
+                  <div class="btns">
+                    <a href="#">Web Plans</a>
+                  </div>
+                </div>
+              
+                <div class="service-item">
+                  <img src="images/print.jpg" alt="print">
+                  <h3>Print</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nulla aperiam fugit nemo officiis repellat reprehenderit optio itaque laudantium, qui inventore perspiciatis beatae est quod veritatis at cum, ea expedita?</p>
+                  <div class="btns">
+                    <a href="#">Print Plans</a>
+                  </div>
+              
             </div>
-
-            <img src="images/marketing.jpg" alt="marketing">
-
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat aliquid facilis quae ipsam quasi illum, possimus, non minima sit aut provident mollitia laborum molestias commodi voluptatum, est suscipit debitis.</p>
-
-            <div class="btns">
-                <a href="#">Marketing Plans</a>
-            </div>
-
-            <img src="images/video.jpg" alt="vids">
-            <h3>Video Production</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit quo totam excepturi nam illo, exercitationem optio! Minima, quis, laboriosam doloribus enim mollitia assumenda adipisci velit similique officiis aliquam pariatur.</p>
-
-            <div class="btns">
-                <a href="#">Video Plans</a>
-            </div>
-
-            <img src="images/web.jpg" alt="web dev">
-
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta a accusamus impedit earum quae, expedita laboriosam, vero dolore maxime, voluptates nesciunt possimus quis quaerat. Aperiam nam autem magni animi dolor?</p>
-            
-            <div class="btns">
-                <a href="#">Web Plans</a>
-            </div>
-
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, nulla aperiam fugit nemo officiis repellat reprehenderit optio itaque laudantium, qui inventore perspiciatis beatae est quod veritatis at cum, ea expedita?</p>
-
-            <div class="btns">
-                <a href="#">Print Plans</a>
-            </div>
-
         </section>
         <section class="vision">
             <h3>Our Vision</h3>
