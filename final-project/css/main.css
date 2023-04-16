@@ -24,7 +24,7 @@ body {
   }
   
   .topnav img {
-    margin-right: 90px;
+    margin-right: 40px;
     margin-left: 0;
 
   }
@@ -96,23 +96,24 @@ body {
 
   }
 
-  
+  /*Header section*/
   
   .main-header {
-    position: arelative;
-    text-align: left; /* align the text to the left */
+    position: relative;
+    text-align: left;   
   }
   .main-header img {
     width: 100%;
-    height: 700px;
+    height: 600px;
   }
   
   .overlay {
     position: absolute;
-    top: 20%;
-    left: 20%;
-    right: 20%;
-    bottom: 20%;
+    height: 400px;
+    top: 40px;
+    left: 120px;
+    right: 120px;
+    bottom: 30px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -125,14 +126,21 @@ body {
   .overlay p {
     color: #fff;
     text-align: left;
+    padding-left: 20px;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: flex-start;
   }
   
   .btns a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 40px 30px;
     background-color: #c78c02;
     color: #000;
     text-decoration: none;
+    font-weight:bold;
   }
   
   .btns a:hover {
