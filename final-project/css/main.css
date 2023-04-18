@@ -1,7 +1,21 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 body {
     font-family: 'Open Sans',sans-serif;
     margin: 0%;
 }
+
+#heroDiv { 
+  height: 1200px;  /* Set the height to 300 pixels */
+}
+
 img {
   max-width: 100%;
 }
@@ -14,6 +28,15 @@ header nav {
   padding: 14px;
 }
 
+.topnav a:hover {
+  background-color: #c78c02;
+  color: #000;
+}
+
+.topnav a:active {
+  background-color: #c78c02;
+  color: #000;
+}
 
 header nav ul li a {
   display: block;
@@ -24,16 +47,13 @@ header nav ul li a {
   padding-bottom: 20px;
   text-align: center;
   text-decoration: none;
-  
+  margin: 0%;
 }
 
-  header nav ul li.current a {
-    background: #c78c02;
-    color: #222;
-}
 .topnav li {
   list-style: none;
 }
+
 .topnav a:hover {
   background-color: #c78c02;
 }
@@ -64,7 +84,7 @@ header .intro {
   background-image: url('images/main-banner.jpg');
   background-size: cover;
   background-position: center center;
-  padding: 68px 0;
+  padding: 0 0;
 }
 
 header .intro .container {
@@ -113,16 +133,35 @@ header button .icon {
 .btns a {
     display: inline-block;
     padding: 40px 30px;
-    background-color: #c78c02;
-    color: #000;
+    background-color:black;
+    color:white;
     text-decoration: none;
     font-weight:bold;
   }
   
 .btns a:hover {
-    background-color: #000;
+    background-color: #c78c02;
     color: #fff;
   }
+
+.herob {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 40px 30px;
+  background-color: #c78c02;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: flex-start;
+}
+
+.herob a {
+   font-size: larger;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+}
 
 /*About Us section*/
 
@@ -162,8 +201,8 @@ header button .icon {
 }
 
 
-.services button {
-  background: #222;
+.btns {
+
   color: white;
   border: none;
   font-size: 22px; 
@@ -171,8 +210,8 @@ header button .icon {
   padding: 32px 36px;
 }
 
-.services button .icon {
-  padding-left: 16px;
+.btns {
+  padding-left: 10px;
 }
 
 /*Our Vision Section*/
@@ -193,6 +232,7 @@ header button .icon {
     top: 180px;
     left: 90px;
     z-index: 2;
+    color: #fff;
   }
   
   .vision a:hover {
@@ -295,6 +335,7 @@ header button .icon {
 
 .contact iframe {
   width: 100%;
+  height: 90%;
 }
 
 footer {
@@ -314,6 +355,11 @@ footer p:last-child {
     color: #c78b07;
 }
 
+footer a {
+    color: #c78b07;
+  
+}
+
 footer p:last-child {
     margin-bottom: 0;
 }
@@ -323,7 +369,8 @@ footer p:last-child {
   h1 {
       font-size: 81px;
       line-height: 118px;
-      font-weight: 700; /* same as 'bold' */
+      font-weight: 800; 
+      color: #fff;
   }
 
   h2 {
@@ -358,7 +405,7 @@ footer p:last-child {
       margin: 0 auto;
   }
 
-  /* ======== HEADER ======== */ 
+  /* Header + Nav bar */ 
 
   header nav {
       padding: 36px 0;
@@ -396,7 +443,7 @@ footer p:last-child {
       width: 47px;
   }
 
-    /* ======== INTRO ======== */ 
+    /* Header Intro */ 
 
     header .intro h1 {
       padding-right: 50px;
@@ -407,7 +454,7 @@ footer p:last-child {
       padding: 40px;
   }
 
- /* ======== ABOUT ======== */ 
+ /*About Us in the Container*/ 
 
  .about .container {
      display: grid;
@@ -421,7 +468,7 @@ footer p:last-child {
  }
 
 
- /* ======== SERVICES ======== */ 
+ /* Services in the Grid view */ 
 
  .services .grid-container {
   padding: 0;
@@ -459,19 +506,19 @@ footer p:last-child {
    grid-column: 5 / span 2 ;
 }
 
-.services button {
+.btns {
    display: block; 
    padding: 43px 32px;
    width: 100%;
 }
 
-/* ======= VISION ======= */
+/*Vision */
 
 .vision button {
    padding: 44px;
 }
 
-/* ======= TEAM ======= */
+/* Team grid view*/
 
 .team .grid-row {
    display: grid;
@@ -486,7 +533,7 @@ footer p:last-child {
    margin: 0;
 }
 
-/* ======= CONTACT ======= */
+/*Contact us */
 
 .contact .grid-container {
    display: grid;
@@ -518,7 +565,7 @@ footer p:last-child {
    font-size: 16px;
 }
 
-/* FOOTER */
+/* Footer  */
 
 footer .container {
    padding-top: 16px;
@@ -532,12 +579,3 @@ footer .container {
    padding: 0 16px;
 }
 }
-
-  
- 
-  
-  
-  
-
-  
-  

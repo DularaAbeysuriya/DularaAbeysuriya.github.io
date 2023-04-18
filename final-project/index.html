@@ -7,8 +7,7 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/238bd16a8e.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/d86a19dbf2.js" crossorigin="anonymous"></script> <!----Font Awesome 4 integration---->
 </head>
 <body>
   <header>
@@ -19,7 +18,7 @@
             <img src="images/logo.png" alt="Three Star Media logo">
           </div>
             <ul>
-              <li>
+              <li class="topnav:a:active">
                 <a href="#">Home</a>
               </li>
               <li>
@@ -38,23 +37,25 @@
             <form>
               <input type="text" placeholder="Search">
               <button type="submit">
-                <i class="fa-regular fa-magnifying-glass"></i>
+                <i class="fa fa-search fa-lg" aria-hidden="true"></i>
               </button>
             </form>
       </div>
     </nav>
-<!-- The header section contains the main banner image, a welcoming message, and a button to connect with the company. -->
-        <div class="intro">
-            <div class="container">
-                <h2>Welcome to Three Star Media</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic quod similique libero, magni tempore amet, repudiandae ipsam eaque commodi nulla suscipit porro eius dolor itaque exercitationem molestias consequuntur non?</p>
-                <div class="btns">
-                    <a href="#">Connect with us <span class="icon">&#9654;</span></a>
-                </div>
-            <img src="images/main-banner.jpg" alt="main photo">
-            </div>
-        </div>
     </header>
+
+<!-- The header section contains the main banner image, a welcoming message, and a button to connect with the company. -->
+<!-- I had to use inline CSS for some parts just to make the stuff less complicated  -->
+<div id="heroDiv" style="background-image: url('images/main-banner.jpg'); background-size: cover; background-repeat: no-repeat; padding-top: 40px; height: 480px;">
+
+  <div class="container" style="background-color: #0000006e; padding: 20px 20px 20px 20px;">
+      <h1>Welcome to Three Star Media</h1>
+      <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic quod similique libero, magni tempore amet, repudiandae ipsam eaque commodi nulla suscipit porro eius dolor itaque exercitationem molestias consequuntur non?</p>
+      <div class="herob">
+          <a href="#">Connect with us <span class="icon">&#9654;</span></a>
+      </div>
+  </div>
+</div>
 
 <!-- The About Us section contains an image and a brief introduction about the company. -->
 <main>
@@ -74,6 +75,7 @@
         
 
 <!-- The Services section contains three service descriptions, each with an image, a heading, a paragraph, and a button. -->
+
         <section class="services">
           <div class="container">
 
@@ -137,12 +139,15 @@
                 </div>
               
             </div>
+          </div>
         </section>
         <section class="vision">
           <div class="container">
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam mollitia quidem, dignissimos aliquid veritatis et accusantium quasi cum recusandae accusamus excepturi vero perspiciatis quia maxime officia voluptate! Expedita, error non?</p>
-            <a href="#">Learn More <span class="icon">&#9654;</span> </a>
+            <div class="btns">
+              <a href="#">Learn More <span class="icon">&#9654;</span> </a>
+            </div>
 
           </div>
             
