@@ -1,3 +1,5 @@
+/* The above CSS code sets the margin, padding, border, font-size, font-family and vertical alignment to their default values for a wide range of HTML elements, effectively resetting their styling to a baseline state. This is often used as a starting point for creating a consistent, cross-browser layout for a web page. */
+
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
 }
 
 #heroDiv { 
-  height: 1200px;  /* Set the height to 300 pixels */
+  height: 1200px;  /* Sets the height to 300 pixels */
 }
 
 img {
@@ -329,7 +331,7 @@ header button .icon {
 }
 
 .contact table tr th {
-  background: #ffe6ac;
+  background: #c78b07;
   border-bottom: 1px solid black;
 }
 
